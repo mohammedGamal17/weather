@@ -26,6 +26,7 @@ API : https://openweathermap.org/api
  - lib\data\data_source\remote_data_source\api_const and replace  "YOUR ID" with API Key
    #### static const String appId = 'YOUR ID';
 To get API Key: https://home.openweathermap.org/api_keys
+## Video https://www.linkedin.com/posts/mohammed-gamal-25a102167_flutter-mobileappdevelopment-softwaredevelopment-activity-7025446651171385344-IKpa?utm_source=share&utm_medium=member_desktop
 
 ## Screens
 ![1](https://user-images.githubusercontent.com/66007646/215327088-269464d6-abf7-4ca0-831d-45687f1f34a4.jpg)
