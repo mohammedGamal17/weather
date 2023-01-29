@@ -1,16 +1,27 @@
 # weather
+Flutter weather application.
 
-weather app
+Features
+- Current weather (Temperature, Clouds, Wind, Sunrise and Sunset).
+- Current sun/moon position.
+-	App background based on a day cycle.
+-	Multiple languages (English and Arabic).
+ 
+ 
+Tools
+-	Provider as state-management.
+-	MVVM as an architecture pattern.
+-	Dio.
+-	Shared preferences.
+-	Dependency injection.
+-	Localization.
+-	Geolocator.
 
-## Getting Started
+APK: https://drive.google.com/file/d/1oP2wp28ubDqWbM4s3B0lKLx1Hk47x23G/view?usp=sharing
 
-This project is a starting point for a Flutter application.
+API : https://openweathermap.org/api
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### To run app go to 
+ - lib\data\data_source\remote_data_source\api_const and replace  "YOUR ID" with API Key
+   #### static const String appId = 'YOUR ID';
+To get API Key: https://home.openweathermap.org/api_keys
